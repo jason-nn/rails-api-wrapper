@@ -1,24 +1,63 @@
-# README
+# Rails Api Wrapper
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Routes
 
-Things you may want to cover:
+Get a list of creator positions (jobs).
 
-* Ruby version
+```text
+api/creator-roles
+```
 
-* System dependencies
+&nbsp;
 
-* Configuration
+Get a list of game creators.
 
-* Database creation
+```text
+api/creators
+```
 
-* Database initialization
+&nbsp;
 
-* How to run the test suite
+Get details of the creator.
 
-* Services (job queues, cache servers, search engines, etc.)
+```text
+api/creators/:id
+```
 
-* Deployment instructions
+&nbsp;
 
-* ...
+Get a list of game developers.
+
+```text
+api/developers
+```
+
+&nbsp;
+
+Get a list of games.
+
+```text
+api/games
+```
+
+## Installation and Setup
+
+```text
+git clone git@github.com:jason-nn/rails-api-wrapper.git
+```
+
+```text
+cd rails-api-wrapper
+```
+
+```text
+bundle install
+```
+
+```text
+rails db:create
+```
+
+```text
+rails db:migrate
+```
