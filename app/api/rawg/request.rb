@@ -1,4 +1,4 @@
-TOKEN = 'f141950e7cb94cec9c332425abfe5f72'
+TOKEN = Rails.application.credentials.rawg[:token]
 BASE_URL = 'https://api.rawg.io/api/'
 
 module Rawg
